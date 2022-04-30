@@ -262,6 +262,14 @@ Whether or not the checkout process is in a pop-up or the same window.
 
 **Default value**: `true`
 
+### `newtab`
+
+Whether or not the checkout process is in a new tab. (Only when popup is false)
+
+**Type**: Boolean
+
+**Default value**: `false`
+
 ### Cart contents defaults
 
 ```js

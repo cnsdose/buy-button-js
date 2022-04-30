@@ -15,6 +15,8 @@ export default class CheckoutNavigator {
   open(url) {
     if (this.config.cart.popup) {
       window.open(url, 'checkout', this.params);
+    } else if (this.config.cart.newtab) {
+      window.open(url, '_blank');
     } else {
       window.location = url;
     }
