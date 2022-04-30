@@ -1,5 +1,5 @@
 {
-  "name": "@shopify/buy-button-js",
+  "name": "@cnsdose/buy-button",
   "version": "2.1.8",
   "browserslist": [
     "last 2 Chrome versions",
@@ -12,7 +12,7 @@
   ],
   "description": "BuyButton.js allows merchants to build Shopify interfaces into any website",
   "main": "lib/buybutton.umd.js",
-  "repository": "git@github.com:Shopify/buy-button-js.git",
+  "repository": "git@github.com:cnsdose/buy-button-js.git",
   "publishConfig": {
     "access": "public",
     "@shopify:registry": "https://registry.npmjs.org/"

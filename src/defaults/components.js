@@ -197,6 +197,7 @@ const defaults = {
     templates: cartTemplates,
     startOpen: false,
     popup: true,
+    newtab: false,
     manifest: ['cart', 'lineItem', 'toggle'],
     contents: {
       title: true,
